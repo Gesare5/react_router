@@ -14,7 +14,7 @@ const App = () => {
 					<Home />
 				</Route>
 				{/* render Post Component when we hit /post */}
-				<Route exact path='/post'>
+				<Route exact path='/posts/:id'>
 					<Posts />
 				</Route>
 				{/* render UserPost Component when we hit /userpost */}
